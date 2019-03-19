@@ -12,6 +12,7 @@ object sparkDemo{
     val numAs = logData.filter(line => line.contains("0")).count()
     val numBs = logData.filter(line => line.contains("1")).count()
     println(s"Lines contains with 0: $numAs, Lines contains with 1: $numBs")
+    
     spark.stop()
 } 
 }

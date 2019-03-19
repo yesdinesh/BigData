@@ -1,25 +1,24 @@
 # BigData
 # sparkDemo using maven repository
 
-git
+### config
+git config --global user.email "xyz@gmail.com"
+git config --global user.name "yesxyz"
 
-git config --global user.email "esdineshkumar@gmail.com"
-git config --global user.name "yesdinesh"
-
-#create empty git dir
+### create empty git dir
 git init
 
-# add all files
+### add all files
 git add --all
 
-# check the status
+### check the status
 git status
 
-# commit the git files
+### commit the git files
 git commit -m "spark sample project"
 
-# pushing the file
-git remote add origin https://github.com/yesdinesh/BigData.git
+### pushing the file
+git remote add origin https://github.com/yesxyz/BigData.git
 git push -u origin master
 
 
